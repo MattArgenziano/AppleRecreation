@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'SF Pro Display', sans-serif;
+    background-color: #fbfbfd;
+}
+
+nav {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #f5f5f7;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: .9rem;
+    font-weight: 300;
+}
+
+.container {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1, button {
+    display: inline;
+}
+
+.container > button {
+    margin-left: 700px;
+    background-color: #0071e3;
+    border-radius: 50%;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    font-size: .7rem;
+}
+
+.container > button:hover {
+    cursor: pointer;
+}
+
+.container > h1 {
+    margin-left: 512px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+hr {
+    color: rgba(0, 0, 0, 0.1)
+}
+
+.save-container {
+    background-color: #e6e6e6;
+}
+
+.save-container p{
+    text-align: center;
+    font-weight: lighter;
+    font-size: .75rem;
+    color: #1d1d1f;
+}
+
+.save-container > p > a {
+    text-decoration: none;
+    color: #06c;
+}
+
+.featured-container {
+    text-align: center;
+    align-items: center;
+    background-color: #fbfbfd;
+}
+
+.featured-container h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.featured-container h2 {
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.featured-container :nth-of-type(2) {
+    margin-bottom: 15px;
+}
+
+.featured-container a {
+    margin: 25px;
+    text-decoration: none;
+    color: #06c;
+    font-size: 1.2rem;
+}
+
+.featured-container a i {
+    margin-left: 5px;
+    font-size: .8rem;
+}
+
+.featured-container p {
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: .9rem;
+}
+
+.featured-container-pro {
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+
+.featured-container-pro h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+    color: #fbfbfd;
+}
+
+.featured-container-pro h2 {
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    color: #fbfbfd;
+}
+
+.featured-container-pro :nth-of-type(2) {
+    margin-bottom: 15px;
+}
+
+.featured-container-pro a {
+    margin: 25px;
+    text-decoration: none;
+    color: #06c;
+    font-size: 1.2rem;
+}
+
+.featured-container-pro a i {
+    margin-left: 5px;
+    font-size: .8rem;
+}
+
+.featured-container-pro p {
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.26);
+    font-size: .9rem;
+}
+
+.featured-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.featured-grid > div {
+    height: 100%;
+    width: 49%;
+    margin: 3px;
+}
+
+.featured-grid div img {
+    height: 200px;
+    width: 300px;
+}
+
+.featured-grid div a:hover {
+    text-decoration: underline;
+}
+
+.featured-grid .imac .featured-container-pro {
+    background-color: #fbfbfd;
+}
+
+.imac .featured-container-pro h1, .imac .featured-container-pro h2 {
+    color: #1d1d1f;
+}
+
+.featured-grid > div > .featured-container-pro > img {
+    margin-top: 50px;
+}
+
+.imac > .featured-container-pro > img {
+    width: 500px;
+}
+
+.featured-grid > div > .featured-container-pro > div > a {
+    font-size: 1rem;
+}
+
+.watch > .featured-container-pro> h1 > img {
+    height: 35px;
+    width: 125px;
+}
+
+.watch > .featured-container-pro > p {
+    color: rgb(160, 1, 1);
+    letter-spacing: 1.5px;
+    font-size: .7rem;
+    margin-top: 0;
+}
+
+.airpods {
+    height: 460px;
+}
+
+.airpods > .featured-container-pro > img {
+    height: 50%;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.airpods > .featured-container-pro { 
+    background: linear-gradient(90deg, rgba(235,255,228,1) 0%, rgba(96,190,255,1) 100%);
+}
+
+.airpods > .featured-container-pro > h1 {
+    color: #1d1d1f;
+    font-size: 2rem;
+}
+
+.arcade > .featured-container-pro> h1 > img {
+    height: 35px;
+    width: 125px;
+}
+
+.featured-grid .arcade .featured-container-pro {
+    background-color: #fbfbfd;
+}
+
+.arcade > .featured-container-pro > h2 {
+    margin-top: 0;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.arcade > .featured-container-pro > img {
+    height: 20%;
+    width: 40%;
+}
+
+.card > .featured-container-pro > h2 {
+    margin-top: 0;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.featured-grid .card .featured-container-pro {
+    background-color: #fbfbfd;
+}
+
+.card > .featured-container-pro> h1 > img {
+    height: 35px;
+    width: 125px;
+}
+
+.card > .featured-container-pro > img {
+    height: 20%;
+    width: 40%;
+}
+
+.featured-grid .appletv .featured-container-pro {
+    background: url(/imgs/Apple_TV_featured_image.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 900px 494px;
+    background-size: cover;
+    height: 494px;
+    background-color: #f1e9da;
+}
+
+footer .container {
+    margin: 0 auto;
+    width: 700px;
+}
+
+.footer-subs { 
+    font-size: .7rem;
+    color:rgba(66, 66, 66, 0.9);
+    font-family: 'SF Pro Display', sans-serif;
+    margin-top: 10px; 
+}
+
+footer .container hr { 
+    margin-top: 10px;
+}
