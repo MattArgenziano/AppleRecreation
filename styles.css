@@ -186,7 +186,7 @@ hr {
 
 .featured-container-pro img {
     height: 300px;
-    width: 100%;
+    width: 25%;
 }
 
 .featured-grid {
@@ -408,6 +408,10 @@ footer .container hr {
 
     .featured-container-pro a {
         margin: 10px;
+    }
+
+    .featured-container-pro img {
+        width: 100%;
     }
 
     .featured-grid .featured-container-pro img {
