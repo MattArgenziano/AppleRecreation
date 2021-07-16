@@ -428,4 +428,8 @@ footer .container hr {
         margin: 0;
         width: 100%;
     }
+
+    li a {
+        width: auto;
+    }
 }
