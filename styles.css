@@ -16,24 +16,34 @@ nav {
 
 ul {
     list-style-type: none;
-    margin-left: 25%;
-    margin-right: 25%;
-    padding: 0;
-    overflow: hidden;
+    text-align: center;
+    height: 40px;
+    align-items: center;
 }
 
 li {
-    float: left;
+    display: inline-block;
+    height: 40px;
+    justify-content: center;
 }
 
 li a {
     display: block;
     color: #f5f5f7;
     text-align: center;
-    padding: 14px 30px;
+    padding: 5px 20px;
     text-decoration: none;
     font-size: .9rem;
     font-weight: 300;
+    width: 90px;
+    height: 40px;
+    top: 0;
+}
+
+li a img {
+    height: 20px;
+    width: 20px;
+    padding-top: 5px;
 }
 
 .container {
@@ -174,6 +184,11 @@ hr {
     font-size: .9rem;
 }
 
+.featured-container-pro img {
+    height: 300px;
+    width: 100%;
+}
+
 .featured-grid {
     display: flex;
     flex-wrap: wrap;
@@ -208,7 +223,8 @@ hr {
 }
 
 .imac > .featured-container-pro > img {
-    width: 500px;
+    height: 25%;
+    width: 50%;
 }
 
 .featured-grid > div > .featured-container-pro > div > a {
@@ -225,6 +241,11 @@ hr {
     letter-spacing: 1.5px;
     font-size: .7rem;
     margin-top: 0;
+}
+
+.watch > .featured-container-pro > img {
+    height: 25%;
+    width: 50%;
 }
 
 .airpods {
@@ -361,4 +382,50 @@ footer .container hr {
 
 #us {
     margin-left: 150px;
+}
+
+#bars {
+    display: none;
+    float: left;
+    color: #f1e9da;
+    padding-top: 5px;
+    padding-left: 0;
+}
+
+#bars:hover {
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .responsive {
+        display: none;
+    }
+
+    #bars {
+        display: block;
+    }
+
+    .featured-container-pro a {
+        margin: 10px;
+    }
+
+    .featured-grid .featured-container-pro img {
+        width: 100%;
+    }
+
+    footer .container {
+        width: 400px;
+    }
+
+    .footer-subs span a {
+        display: block;
+        text-align: center;
+    }
+
+    #us {
+        text-align: center;
+        margin: 0;
+        width: 100%;
+    }
 }
