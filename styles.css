@@ -309,5 +309,42 @@ footer .container {
 }
 
 footer .container hr { 
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.links-section {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.grid-item {
+    text-align: left;
+    font-size: .7rem;
+}
+
+.links-header {
+    font-weight: 600;
+    color:rgb(56, 56, 56);
+    letter-spacing: .5px;
+}
+
+.grid-item > a {
+    display: block;
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+    margin-top: 8px;
+}
+
+.grid-item > a:hover {
+    text-decoration: underline;
+}
+
+.footer-subs a { 
+    text-decoration: none;
+    color: #06c;
+}
+
+.footer-subs a:hover { 
+    text-decoration: underline;
 }
